@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>511</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>12</y>
+      <width>491</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Empresa</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QListView" name="Ventanita"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Registrar_Cliente">
+       <property name="text">
+        <string>Registrar Cliente</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Registrar_Empleado">
+       <property name="text">
+        <string>Registrar Empleado</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Eliminar_Cliente">
+       <property name="text">
+        <string>Eliminar Cliente</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Cambiar_Paquete">
+       <property name="text">
+        <string>Cambiar Paquete </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
